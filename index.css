@@ -65,11 +65,18 @@ li {
 .row {
     width: 100%;
     max-width: 1300px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#about,
+#discord,
+#contact,
+#footer {
+    padding: 48px 0;
+}
 /*
 
 #ABOUT
@@ -77,7 +84,7 @@ li {
 */
 
 #about {
-    padding: 48px 0;
+    background-color: #f8ffdc;
 }
 
 h2{
@@ -104,8 +111,74 @@ img {
     width: 60%;
 }
 
+.about__img--wrapper,
+.section__description--wrapper {
+        padding: 80px;
+    }
+
 .section__description--para {
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 24px;
+}
+
+/*
+
+#DISCORD
+
+*/
+
+#discord {
+    padding: 48px 0;
+    background-color: #cef8ff;
+}
+
+/*
+
+#CONTACT
+
+*/
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+/*
+
+#FOOTER
+
+*/
+
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin: 16px;
+}
+
+.footer__links {
+    margin-bottom: 16px;
+}
+
+.footer__link {
+    padding: 0 16px;
 }
